@@ -83,24 +83,6 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-          <div
-            className={`flex-1 pb-3 mt-8 md:pb-0 md:mt-0 md:block ${
-              state ? '' : 'hidden'
-            }`}
-          >
-            <ul className="text-gray-700 justify-end items-center space-y-6 md:flex md:space-x-6 md:space-y-0 md:text-gray-600 md:font-medium">
-              {/* {navigation.map((item, idx) => {
-                return (
-                  <li key={idx} className="duration-150 hover:text-gray-900">
-                    <Link href={item.path} className="block">
-                      {item.title}
-                    </Link>
-                  </li>
-                );
-              })} */}
-
-            </ul>
-          </div>
         </div>
       </nav>
     </header>
