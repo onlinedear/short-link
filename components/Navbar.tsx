@@ -8,11 +8,6 @@ import { usePathname, useSearchParams } from 'next/navigation';
 
 const Navbar = () => {
   const [state, setState] = useState(false);
-
-  // const navigation = [
-  //   { title: 'GitHub', path: '/' },
-  // ];
-
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
