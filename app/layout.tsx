@@ -6,11 +6,11 @@ import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
-let title = 'SLink - Short Link Generator';
+let title = 'HaoDuan - Short Link Generator';
 let description = 'Generate Short Link in seconds';
-let url = 'https://slink-code.vercel.app';
-let ogimage = 'https://slink-code.vercel.app/og-image.png';
-let sitename = 'slink-code.vercel.app';
+let url = 'https://haoduan.cn';
+let ogimage = 'https://haoduan.cn/og-image.png';
+let sitename = 'haoduan.cn';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
